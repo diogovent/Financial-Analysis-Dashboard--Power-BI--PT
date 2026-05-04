@@ -181,5 +181,5 @@ CALCULATE(
 
 Desenvolvido como projecto de análise de dados para portfólio pessoal.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/o-teu-linkedin-aqui)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diogovent)
+[![LinkedIn](https://www.linkedin.com/in/diogo-ventura-4981bb254/)
+[![GitHub](https://github.com/diogovent)
