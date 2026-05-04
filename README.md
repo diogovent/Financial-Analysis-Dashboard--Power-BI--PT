@@ -21,7 +21,7 @@
 
 ## 📁 Sobre o Projeto
 
-Este projeto consiste numa análise financeira baseada em dados mensais de **receitas e despesas** de uma empresa, abrangendo os anos de **2019, 2020 e 2022**.
+Este projeto consiste numa análise financeira baseada em dados mensais de **receitas e despesas** de uma empresa, abrangendo os anos de **2019, 2020 e 2022**, não existe dados de 2021, infelizmente não encontrei a razão do porquê.
 
 O objetivo principal é compreender a evolução financeira da empresa, identificar os componentes com maior peso nas receitas e despesas, e acompanhar a margem de lucro ao longo do tempo.
 
@@ -121,8 +121,8 @@ O dashboard apresenta os seguintes visuais:
 - **Total de Receitas por Componente** — Gráfico de barras horizontais que mostra que o principal componente é o da receita são as "Vendas" com acerca de 1.359 Milhões € (70,8%)
 - **Total de Despesas por Componente** — Gráfico de linhas/área com uma linha de despesa média (192.152,83 €) e vemos que o principal componente das despesas
 é o "Administrativo" que representa acerca de 40,1%
-- **Tabela Resumo por Ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022, não existe dados de 2021, infelizmente não encontrei a razão do porquê,
-e também por ter usado a Matriz os totais da parte debaixo do gráfico representam o total da movimentação e não o lucro que a empresa teve
+- **Tabela Resumo por Ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022, não existe dados de 2021, por ter usado
+o tipo de gráfico "Matriz" os totais da parte debaixo do gráfico representam o total da movimentação e não o lucro que a empresa teve
 
 ---
 
