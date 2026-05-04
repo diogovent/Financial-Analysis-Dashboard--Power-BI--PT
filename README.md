@@ -117,9 +117,11 @@ O dashboard apresenta os seguintes visuais:
 
 **Visuais incluídos:**
 - **Top Segments (IA)** — Segmentação automática por valor médio, identificando 7 segmentos distintos
-- **Total de Receitas por Componente** — Gráfico de barras horizontais que mostra que o principal componente é o da receita são as "Vendas" com acerca de 1.359 Milhões de €
-- **Total de Despesas por Componente** — Gráfico de linhas/área com uma linha de despesa média (192.152,83 €) e vemos que o principal componente das despesas é o "Administrativo"
-- **Tabela resumo por ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022
+- **Total de Receitas por Componente** — Gráfico de barras horizontais que mostra que o principal componente é o da receita são as "Vendas" com acerca de 1.359 Milhões € (70,8%)
+- **Total de Despesas por Componente** — Gráfico de linhas/área com uma linha de despesa média (192.152,83 €) e vemos que o principal componente das despesas
+é o "Administrativo" que representa acerca de 40,1%
+- **Tabela Resumo por Ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022, não existe dados de 2021, infelizmente não encontrei a razão do porquê,
+e também por ter usado a Matriz os totais da parte debaixo do gráfico representam o total da movimentação e não o lucro que a empresa teve
 
 ---
 
@@ -149,17 +151,24 @@ Lucro = [Total de Receitas] - [Total de Despesas]
 
 ## 🔍 Principais Conclusões
 
-1. **As Vendas dominam as receitas** — representam mais de 70% do total de receitas (1,36M em 1,92M)
+1. **As Vendas Dominam as Receitas** — Representam mais de 70% do total de receitas (1,36M em 1,92M)
 
-2. **A margem de lucro é saudável** — 39,96% indica que por cada euro de receita, quase 40 cêntimos ficam como lucro
+2. **A Margem de Lucro é Saudável** — 39,96% indica que por cada euro de receita, quase 40 cêntimos ficam como lucro
 
-3. **O Administrativo é a maior despesa** — representa 40% do total de despesas (462K em 1,15M)
+3. **O Administrativo é a Maior Despesa** — Representa 40% do total de despesas (462K em 1,15M)
 
-4. **Crescimento consistente das receitas** — de 560K em 2019 para 755K em 2022, um crescimento de ~35%
+4. **Crescimento Consistente das Receitas** — Dos 560K em 2019 para 755K em 2022, um crescimento de ~35%
 
-5. **As despesas também cresceram** — de 287K em 2019 para 495K em 2022, pelo que a gestão de custos é um ponto a monitorizar
+5. **As Despesas também Cresceram** — De 287K em 2019 para 495K em 2022, pelo que a gestão de custos é um ponto a monitorizar
 
-6. **Salários com crescimento acentuado** — passaram de 40K em 2019 para 124K em 2022, reflexo de crescimento da equipa
+6. **Salários com Crescimento Acentuado** — Passaram de 40K em 2019 para 124K em 2022, reflexo de crescimento da equipa
+
+---
+
+## 💡 Recomendações
+
+
+
 
 ---
 
