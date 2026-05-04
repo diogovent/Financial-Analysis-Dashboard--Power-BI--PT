@@ -122,8 +122,8 @@ O dashboard apresenta os seguintes visuais:
 - **Total de Receitas por Componente** — Gráfico de barras horizontais que mostra que o principal componente é o da receita são as "Vendas" com acerca de 1.359 Milhões € (70,8%)
 - **Total de Despesas por Componente** — Gráfico de linhas/área com uma linha de despesa média (192.152,83 €) e vemos que o principal componente das despesas
 é o "Administrativo" que representa acerca de 40,1%
-- **Tabela Resumo por Ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022, não existe dados de 2021, por ter usado
-o tipo de gráfico "Matriz" os totais da parte debaixo do gráfico representam o total da movimentação e não o lucro que a empresa teve
+- **Tabela Resumo por Ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022, não existe dados de 2021,
+como utilizei uma matriz, os totais apresentados em baixo correspondem ao total de movimentação e não ao lucro
 
 ---
 
