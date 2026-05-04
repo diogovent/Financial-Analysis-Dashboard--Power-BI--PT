@@ -1,23 +1,19 @@
 # 💰 Financial-Analysis-Dashboard--Power-BI (PT)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-
 > Análise financeira de receitas e despesas de uma empresa ao longo de 2019, 2020 e 2022, com foco na margem de lucro e evolução por componente.
 
 ---
 
 ## 📌 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Objetivos da Análise](#objetivos-da-análise)
-- [Ferramentas Utilizadas](#ferramentas-utilizadas)
-- [Estrutura do Dataset](#estrutura-do-dataset)
-- [Dashboard](#dashboard)
-- [Medidas DAX](#medidas-dax)
-- [Principais Conclusões](#principais-conclusões)
-- [Como Visualizar](#como-visualizar)
+- Sobre o Projeto
+- Objetivos da Análise
+- Ferramentas Utilizadas
+- Estrutura do Dataset
+- Dashboard
+- Medidas DAX
+- Principais Conclusões
+- Como Visualizar
 
 ---
 
@@ -88,7 +84,7 @@ O ficheiro `DadosFinanceiros.xlsx` contém dados mensais organizados da seguinte
 
 ## 📊 Dashboard
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](https://github.com/diogovent/Financial-Analysis-Dashboard--Power-BI--PT/blob/main/Dashboard.png)
 
 O dashboard apresenta os seguintes visuais:
 
