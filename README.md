@@ -14,6 +14,7 @@
 - Dashboard
 - Medidas DAX
 - Principais Conclusões
+- Recomendações
 - Como Visualizar
 
 ---
@@ -167,8 +168,17 @@ Lucro = [Total de Receitas] - [Total de Despesas]
 
 ## 💡 Recomendações
 
+1. **Controlar o Crescimento das Despesas**
+    As despesas estão a crescer mais rápido que as receitas, o que está a pressionar a margem, então recomendo:
+       Implementar medidas de controlo de custos, especialmente nas áreas com maior peso como o administrativo, para evitar a redução da rentabilidade
+   
+2. **Monitorizar a Margem de Lucro ao Longo do Tempo**
+   A margem global é boa, mas tem tendência de queda, então recomendo:
+       Criar acompanhamento regular da margem de lucro (mensal ou trimestral) para identificar desvios e agir atempadamente
 
-
+3. **Reduzir Dependência das Vendas**
+    As vendas representam mais de 70% das receitas → risco de concentração, então recomendo:
+       Diversificar fontes de receita, reforçando áreas como licenciamento ou investimentos para tornar o negócio mais equilibrado
 
 ---
 
