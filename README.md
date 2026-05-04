@@ -85,11 +85,11 @@ O ficheiro `DadosFinanceiros.xlsx` contém dados mensais organizados da seguinte
 
 Antes de ter feito as medidas e analisar os dados precisei fazer um tratamento dos mesmo no Power BI para isso tive de acerder ao Power Query e vieram desta forma:
 
-![Dashboard Preview](
+![Dashboard Preview](https://github.com/diogovent/Financial-Analysis-Dashboard--Power-BI--PT/blob/main/1.png)
 
 Para resolver este problema precisei primeiro transformar o a primeira linha como o nome das colunas e mudar o tipo de coluna (em algumas) de texto para número decimal:
 
-![Dashboard Preview](
+![Dashboard Preview](https://github.com/diogovent/Financial-Analysis-Dashboard--Power-BI--PT/blob/main/2.png)
 
 Por ultimo precisei de criar uma coluna de "Datas" e outra de "Valor" sendo esta a única que tive de escrever um código próprio , uma vez que não havia uma maneira rápida de resolver o problema:
 
@@ -99,7 +99,7 @@ Por ultimo precisei de criar uma coluna de "Datas" e outra de "Valor" sendo esta
 
 Depois disto foi só passar a coluna de "Datas" que estava para texto transformei no tipo data:
 
-![Dashboard Preview](
+![Dashboard Preview](https://github.com/diogovent/Financial-Analysis-Dashboard--Power-BI--PT/blob/main/3.png)
 
 ---
 
