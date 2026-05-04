@@ -81,6 +81,27 @@ O ficheiro `DadosFinanceiros.xlsx` contém dados mensais organizados da seguinte
 | **Total Despesas** | **1.152.917,00 €** |
 
 ---
+## Tratamento dos Dados
+
+Antes de ter feito as medidas e analisar os dados precisei fazer um tratamento dos mesmo no Power BI para isso tive de acerder ao Power Query e vieram desta forma:
+
+![Dashboard Preview](
+
+Para resolver este problema precisei primeiro transformar o a primeira linha como o nome das colunas e mudar o tipo de coluna (em algumas) de texto para número decimal:
+
+![Dashboard Preview](
+
+Por ultimo precisei de criar uma coluna de "Datas" e outra de "Valor" sendo esta a única que tive de escrever um código próprio , uma vez que não havia uma maneira rápida de resolver o problema:
+
+```dax
+    = Table.UnpivotOtherColumns(#"Tipo Alterado1", {"Tipo", "Componente"}, "Data", "Valor")
+```
+
+Depois disto foi só passar a coluna de "Datas" que estava para texto transformei no tipo data:
+
+![Dashboard Preview](
+
+---
 
 ## 📊 Dashboard
 
