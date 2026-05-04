@@ -10,6 +10,7 @@
 - Objetivos da Análise
 - Ferramentas Utilizadas
 - Estrutura do Dataset
+- Tratamento dos Dados
 - Dashboard
 - Medidas DAX
 - Principais Conclusões
@@ -81,7 +82,7 @@ O ficheiro `DadosFinanceiros.xlsx` contém dados mensais organizados da seguinte
 | **Total Despesas** | **1.152.917,00 €** |
 
 ---
-## Tratamento dos Dados
+## 📂 Tratamento dos Dados
 
 Antes de ter feito as medidas e analisar os dados precisei fazer um tratamento dos mesmo no Power BI para isso tive de acerder ao Power Query e vieram desta forma:
 
@@ -115,10 +116,10 @@ O dashboard apresenta os seguintes visuais:
 - **Margem de Lucro:** 39,96%
 
 **Visuais incluídos:**
-- **Top Segments (IA)** — segmentação automática por valor médio, identificando 7 segmentos distintos
-- **Total de Receitas por Componente** — gráfico de barras horizontais ordenado por valor
-- **Total de Despesas por Componente** — gráfico de linhas/área com linha de despesa média (192.152,83 €)
-- **Tabela resumo por ano** — comparação de receitas e despesas por componente em 2019, 2020 e 2022
+- **Top Segments (IA)** — Segmentação automática por valor médio, identificando 7 segmentos distintos
+- **Total de Receitas por Componente** — Gráfico de barras horizontais que mostra que o principal componente é o da receita são as "Vendas" com acerca de 1.359 Milhões de €
+- **Total de Despesas por Componente** — Gráfico de linhas/área com uma linha de despesa média (192.152,83 €) e vemos que o principal componente das despesas é o "Administrativo"
+- **Tabela resumo por ano** — Comparação de receitas e despesas por componente em 2019, 2020 e 2022
 
 ---
 
@@ -126,46 +127,22 @@ O dashboard apresenta os seguintes visuais:
 
 Total de Receitas:
 ```dax
-Total_Receitas =
-CALCULATE(
-    SUM('DadosFinanceiros'[Valor]),
-    'DadosFinanceiros'[Tipo] = "Receitas"
-)
+Total de Receitas = CALCULATE(SUM(DadosFinanceiros[Valor]),DadosFinanceiros[Tipo]="Receitas")
 ```
 
 Total de Despesas:
 ```dax
-Total_Despesas =
-CALCULATE(
-    SUM('DadosFinanceiros'[Valor]),
-    'DadosFinanceiros'[Tipo] = "Despesas"
-)
+Total de Despesas = CALCULATE(SUM(DadosFinanceiros[Valor]),DadosFinanceiros[Tipo]="Despesas")
 ```
 
 Margem de Lucro:
 ```dax
-Margem_Lucro =
-DIVIDE(
-    [Total_Receitas] - [Total_Despesas],
-    [Total_Receitas]
-)
+Margem de Lucro = DIVIDE([Lucro], [Total de Receitas], 0)
 ```
 
 Lucro Total:
 ```dax
-Lucro_Total = [Total_Receitas] - [Total_Despesas]
-```
-
-Despesa Média por Componente:
-```dax
-Despesa_Media =
-CALCULATE(
-    AVERAGEX(
-        VALUES('DadosFinanceiros'[Componente]),
-        CALCULATE(SUM('DadosFinanceiros'[Valor]))
-    ),
-    'DadosFinanceiros'[Tipo] = "Despesas"
-)
+Lucro = [Total de Receitas] - [Total de Despesas]
 ```
 
 ---
