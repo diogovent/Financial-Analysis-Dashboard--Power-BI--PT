@@ -83,6 +83,7 @@ O ficheiro `DadosFinanceiros.xlsx` contém dados mensais organizados da seguinte
 | **Total Despesas** | **1.152.917,00 €** |
 
 ---
+
 ## 📂 Tratamento dos Dados
 
 Antes de ter feito as medidas e analisar os dados precisei fazer um tratamento dos mesmo no Power BI para isso tive de acerder ao Power Query e vieram desta forma:
@@ -189,6 +190,7 @@ Lucro = [Total de Receitas] - [Total de Despesas]
 3. O ficheiro de dados `DadosFinanceiros.xlsx` está incluído no repositório
 
 4. Ou então pode aceder por este link: https://app.powerbi.com/groups/me/reports/f1b1659c-e50e-4b8c-88be-ebcefc530607?pbi_source=desktop
+
 ---
 
 ## 👤 Autor
