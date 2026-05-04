@@ -171,6 +171,7 @@ CALCULATE(
 2. Abre no **Power BI Desktop** (gratuito)
 3. O ficheiro de dados `DadosFinanceiros.xlsx` está incluído no repositório
 
+Ou então pode aceder por este link: https://app.powerbi.com/groups/me/reports/f1b1659c-e50e-4b8c-88be-ebcefc530607?pbi_source=desktop
 ---
 
 ## 👤 Autor
